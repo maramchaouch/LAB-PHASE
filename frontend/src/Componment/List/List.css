@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 3px -2px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: #626262;
+    font-size: 20px;
+    font-weight:500 ;
+}
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    color: #626262;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height:3px;
+    border-radius: #fff;
+    background-color:pink;
+}
